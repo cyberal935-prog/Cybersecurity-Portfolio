@@ -32,3 +32,6 @@ Reproduce the log analysis commands in a practice environment and document findi
 
 ## Security Note
 This project uses authorized training materials. No private production logs or sensitive credentials are included.
+## Investigation Report
+
+[View my Apache Access Log Investigation Report](investigation-report.md)
