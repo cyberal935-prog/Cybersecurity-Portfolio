@@ -257,3 +257,77 @@ No containment actions have been executed as part of this simulated project.
 **Containment Status:** Pending Implementation
 
 **Incident Status:** Open - Investigation Ongoing
+
+
+## Incident Eradication and Recovery Plan
+
+**Incident ID:** IR-001
+
+**Incident Severity:** High (Preliminary)
+
+**Response Phase:** Eradication and Recovery
+
+**Implementation Status:** Proposed - Not Executed
+
+### Eradication Objectives
+
+The goal of eradication is to address any confirmed unauthorized access, eliminate identified persistence mechanisms, and reduce the risk of the incident recurring.
+
+### Recommended Eradication Actions
+
+1. Investigate the source of the suspicious authentication activity.
+2. Review account activity to identify unauthorized changes or actions.
+3. Revoke unauthorized sessions, tokens, and application access.
+4. Reset compromised credentials using a trusted recovery process.
+5. Remove unauthorized MFA methods, recovery options, or account permissions if discovered.
+6. Investigate other accounts or systems if evidence suggests additional compromise.
+7. Address identified security weaknesses that contributed to the incident.
+
+### Recovery Objectives
+
+The goal of recovery is to safely restore legitimate employee access while maintaining appropriate security controls.
+
+### Recommended Recovery Actions
+
+1. Verify the employee's identity through an approved process.
+2. Confirm that account credentials and MFA methods are secure.
+3. Restore account access after authorized security review.
+4. Validate that the employee can access required business resources.
+5. Review authentication logs for additional suspicious activity.
+6. Monitor the account for recurring security alerts.
+7. Document recovery decisions and verification results.
+
+### Post-Recovery Monitoring
+
+The security team should monitor for:
+
+- Repeated failed login attempts.
+- Successful logins from unfamiliar locations or devices.
+- Unexpected account permission changes.
+- New or unauthorized MFA registrations.
+- Suspicious access to business resources.
+- Unrecognized active sessions.
+
+### Recovery Verification Criteria
+
+Recovery should be considered successful only when:
+
+1. Authorized access has been restored.
+2. Known unauthorized sessions and access methods have been addressed.
+3. Relevant security controls have been validated.
+4. No unresolved indicators of ongoing compromise remain.
+5. The designated incident responder approves recovery.
+
+### Eradication and Recovery Conclusion
+
+The proposed eradication and recovery plan focuses on securing the affected account, addressing identified threats, restoring legitimate access, and monitoring for recurrence.
+
+The root cause and full scope of the suspected compromise remain undetermined.
+
+No eradication or recovery actions have been performed as part of this simulated project.
+
+**Eradication Status:** Pending Investigation and Implementation
+
+**Recovery Status:** Not Started
+
+**Incident Status:** Open - Investigation Ongoing
