@@ -331,3 +331,189 @@ No eradication or recovery actions have been performed as part of this simulated
 **Recovery Status:** Not Started
 
 **Incident Status:** Open - Investigation Ongoing
+
+
+---
+
+# Final Incident Response Report
+
+## Executive Summary
+
+Incident IR-001 involves suspicious authentication activity affecting an employee account in a simulated small-business environment.
+
+The available evidence includes 15 failed login attempts within 10 minutes, followed by a successful login at 2:14 AM from an unfamiliar IP address.
+
+The employee reported that they did not recognize the successful login and were asleep at the time.
+
+Based on these indicators, the incident was assigned a preliminary High severity rating.
+
+The activity suggests possible unauthorized account access. However, account compromise, attacker identity, and the full impact of the incident have not been confirmed.
+
+## Investigation Summary
+
+**Incident ID:** IR-001
+
+**Incident Category:** Suspicious Authentication Activity
+
+**Affected Asset:** Employee User Account
+
+**Preliminary Severity:** High
+
+**Investigation Status:** Open - Further Investigation Required
+
+**Containment Status:** Proposed - Not Implemented
+
+**Eradication Status:** Pending Investigation and Implementation
+
+**Recovery Status:** Not Started
+
+### Key Investigation Findings
+
+1. Fifteen failed authentication attempts occurred within a 10-minute period.
+2. A successful login was recorded at 2:14 AM.
+3. The successful login originated from an unfamiliar IP address.
+4. The employee's normal working hours were 8:00 AM to 5:00 PM.
+5. The employee denied recognizing the successful login.
+6. The available evidence does not establish whether the failed and successful attempts originated from the same source.
+
+### Indicators Requiring Investigation
+
+- Repeated failed authentication attempts.
+- Successful authentication outside normal working hours.
+- Unfamiliar source IP address.
+- Employee denial of the login activity.
+- Possible unauthorized use of account credentials.
+
+These indicators are suspicious but do not independently confirm a successful attack.
+
+## Incident Response Summary
+
+### Detection and Analysis
+
+Suspicious authentication activity was identified through simulated log observations.
+
+The available evidence supports further investigation into possible unauthorized account access.
+
+### Containment
+
+Recommended containment measures include:
+
+- Preserving relevant authentication logs.
+- Notifying designated security personnel.
+- Revoking suspicious sessions.
+- Temporarily restricting account access when appropriate.
+- Securing account credentials and MFA methods.
+- Monitoring for additional suspicious activity.
+
+No containment actions were executed.
+
+### Eradication
+
+Recommended eradication activities include:
+
+- Investigating the cause of the suspicious login.
+- Reviewing account activity and security settings.
+- Removing unauthorized access methods if discovered.
+- Addressing confirmed security weaknesses.
+- Investigating additional accounts if evidence indicates broader compromise.
+
+No eradication actions were executed.
+
+### Recovery
+
+Recommended recovery activities include:
+
+- Verifying the legitimate employee's identity.
+- Securing account credentials and MFA.
+- Restoring authorized access after security review.
+- Validating account functionality.
+- Monitoring for recurring suspicious activity.
+
+No recovery actions were executed.
+
+## Outstanding Investigation Questions
+
+The following questions remain unresolved:
+
+1. What was the exact source IP address of the successful login?
+2. Did the failed and successful login attempts originate from the same source?
+3. Was the successful login associated with an authorized device?
+4. Were any sensitive business resources accessed?
+5. Were account permissions or security settings modified?
+6. Were additional employee accounts affected?
+7. Was multifactor authentication enabled and successfully completed?
+
+These questions require additional evidence before the investigation can be finalized.
+
+## Lessons Learned
+
+### Lesson 1: Authentication Monitoring
+
+Repeated failed logins followed by successful authentication should trigger appropriate security investigation.
+
+### Lesson 2: Account Security
+
+Strong authentication controls, secure password practices, and MFA can help reduce the risk of unauthorized account access.
+
+### Lesson 3: Evidence Preservation
+
+Authentication logs, timestamps, source IP addresses, and account activity records are important for investigating suspicious access.
+
+### Lesson 4: Incident Prioritization
+
+Severity assessments should reflect available evidence, potential impact, and uncertainty rather than assumptions about confirmed compromise.
+
+### Lesson 5: Incident Documentation
+
+Clear documentation supports investigation continuity, escalation decisions, and communication between security personnel.
+
+## Security Improvement Recommendations
+
+1. Implement or strengthen multifactor authentication.
+2. Configure alerts for suspicious authentication patterns.
+3. Review account permissions regularly.
+4. Establish procedures for responding to suspected account compromise.
+5. Maintain appropriate authentication log retention.
+6. Train employees to report suspicious account activity.
+7. Periodically review incident response procedures.
+
+## Assessment Limitations
+
+This project uses a fictional security incident for educational purposes.
+
+No live systems, real authentication logs, or production accounts were accessed.
+
+The investigation findings are based only on the simulated evidence provided.
+
+No containment, eradication, or recovery actions were performed.
+
+The incident's root cause, actual impact, and final severity remain undetermined.
+
+## Final Assessment Conclusion
+
+Incident IR-001 represents a potential employee account compromise requiring urgent investigation.
+
+The preliminary High severity rating is supported by suspicious authentication activity and the employee's denial of the successful login.
+
+The investigation demonstrates how a Junior SOC Analyst can evaluate security indicators, assess incident severity, recommend protective measures, and document incident response activities.
+
+The simulated investigation remains open because additional evidence is required to confirm the incident's cause, scope, and impact.
+
+**Final Report Status:** Documentation Complete - Investigation Open
+
+**Final Severity:** Not Yet Determined
+
+**Incident Status:** Open - Further Investigation Required
+
+## Skills Demonstrated
+
+- Security Incident Triage
+- Authentication Log Analysis
+- Incident Severity Assessment
+- Security Risk Evaluation
+- Incident Containment Planning
+- Evidence Preservation
+- Eradication and Recovery Planning
+- Incident Documentation
+- Security Monitoring Recommendations
+- Post-Incident Review and Lessons Learned
