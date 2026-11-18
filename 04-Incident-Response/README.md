@@ -105,3 +105,73 @@ The successful login following the failures raises concern that the account cred
 However, the available evidence does not establish how the successful authentication occurred or whether the same source was responsible for the failed attempts.
 
 Additional log analysis and account activity review are required before confirming the cause and scope of the incident.
+
+
+## Preliminary Incident Severity Assessment
+
+**Incident ID:** IR-001
+
+**Preliminary Severity:** High
+
+**Assessment Status:** Preliminary - Further Investigation Required
+
+### Severity Justification
+
+The incident has been assigned a preliminary High severity rating due to suspicious authentication activity involving an employee account.
+
+The following indicators support this assessment:
+
+1. Fifteen failed login attempts occurred within a 10-minute period.
+2. A successful login occurred at 2:14 AM outside normal business hours.
+3. The successful login originated from an unfamiliar IP address.
+4. The employee confirmed that they did not recognize the login activity.
+5. The sequence of events raises concern about possible unauthorized account access.
+
+### Potential Security Impact
+
+If the account has been compromised, an unauthorized individual may be able to:
+
+- Access business systems and resources available to the employee.
+- View or obtain sensitive business information.
+- Perform unauthorized actions using the employee's identity.
+- Attempt additional account access or privilege escalation.
+
+These impacts are potential risks and have not been confirmed.
+
+### Why Critical Severity Was Not Assigned
+
+Critical severity was considered because a successful login occurred under suspicious circumstances.
+
+However, the available evidence does not confirm:
+
+- Compromise of privileged or administrative accounts.
+- Unauthorized access to sensitive information.
+- Data theft or exfiltration.
+- Widespread system compromise.
+- Major business disruption.
+
+Without evidence of severe impact or additional critical risk factors, a preliminary High severity rating is more appropriate.
+
+### Recommended Response Priority
+
+**Response Priority:** High - Urgent Investigation
+
+Recommended initial actions include:
+
+1. Notify the security team or designated incident responder.
+2. Preserve relevant authentication and account activity logs.
+3. Investigate the successful login and associated source IP address.
+4. Review account permissions and recent activity.
+5. Consider temporarily disabling the account or revoking active sessions to prevent further unauthorized access.
+6. Require a secure password reset and verify multifactor authentication settings.
+7. Reassess severity as additional evidence becomes available.
+
+### Severity Assessment Conclusion
+
+The suspicious authentication activity represents a potential account compromise requiring urgent investigation and protective action.
+
+The incident will remain classified as High severity until additional evidence supports escalation or reduction.
+
+**Final Severity:** Not Yet Determined
+
+**Investigation Status:** Open - Under Investigation
