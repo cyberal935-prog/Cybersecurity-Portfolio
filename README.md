@@ -40,6 +40,64 @@ Analyzed a sample Apache web server access log using command-line utilities to i
 
 [Read the Investigation Report](01-Log-Analysis/investigation-report.md)
 
+### Project 2: Phishing Email Analysis
+
+**Focus:** Phishing Detection | Email Security | Threat Analysis
+
+Conducted a simulated phishing email investigation to identify suspicious indicators, evaluate potential security risks, and recommend protective actions.
+
+**Skills demonstrated:**
+- Phishing indicator identification
+- Suspicious email analysis
+- Social engineering awareness
+- Security risk assessment
+- Incident documentation
+
+[View Project 2](./02-Phishing-Analysis/README.md)
+
+---
+
+### Project 3: Vulnerability Assessment
+
+**Focus:** Vulnerability Identification | Risk Prioritization | Remediation Planning
+
+Performed a simulated small-business security assessment covering missing security updates, weak Wi-Fi security, and password and account security weaknesses.
+
+**Skills demonstrated:**
+- Vulnerability identification
+- Qualitative risk assessment
+- Security control evaluation
+- Remediation recommendations
+- Technical report writing
+
+[View Project 3](./03-Vulnerability-Assessment/README.md)
+
+---
+
+### Project 4: Security Incident Response
+
+**Focus:** SOC Analysis | Incident Triage | Containment | Recovery
+
+Developed a simulated incident response investigation involving suspicious employee account authentication activity, including repeated failed login attempts and an unrecognized successful login.
+
+Documented a preliminary High severity assessment, containment recommendations, evidence preservation, eradication and recovery planning, and a final incident report.
+
+**Skills demonstrated:**
+- Security incident triage
+- Authentication log analysis
+- Incident severity assessment
+- Evidence preservation
+- Containment planning
+- Eradication and recovery planning
+- Security incident reporting
+
+**Project status:** Documentation complete; simulated investigation remains open pending additional evidence.
+
+[View Project 4](./04-Incident-Response/README.md)
+
+---
+
+**Portfolio Note:** Projects involving simulated scenarios are educational exercises. Findings, recommendations, and response plans are documented for demonstration purposes and do not represent confirmed incidents or actions performed in a production environment.
 ## Career Goals
 
 I am working toward an entry-level cybersecurity role, particularly in security operations, monitoring, threat analysis, or incident response.
