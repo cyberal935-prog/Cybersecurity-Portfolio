@@ -175,3 +175,85 @@ The incident will remain classified as High severity until additional evidence s
 **Final Severity:** Not Yet Determined
 
 **Investigation Status:** Open - Under Investigation
+
+
+## Incident Containment and Response Plan
+
+**Incident ID:** IR-001
+
+**Incident Severity:** High (Preliminary)
+
+**Response Phase:** Containment
+
+**Containment Status:** Proposed - Not Implemented
+
+### Containment Objectives
+
+The primary objectives of containment are to prevent further unauthorized account access, protect business resources, and preserve evidence for investigation.
+
+### Immediate Containment Actions
+
+1. Notify the designated security incident response team.
+2. Preserve authentication logs and relevant security alerts.
+3. Temporarily disable the affected employee account if authorized and operationally appropriate.
+4. Revoke active sessions and authentication tokens associated with the affected account.
+5. Require a secure password reset through a trusted recovery process.
+6. Review and strengthen multifactor authentication (MFA) settings.
+7. Monitor for additional suspicious login attempts or related account activity.
+
+### Evidence Preservation
+
+Before making changes where feasible, the incident responder should preserve:
+
+- Authentication logs showing failed and successful login attempts.
+- Source IP addresses associated with authentication events.
+- Login timestamps and relevant time zone information.
+- Account activity and security alerts.
+- Device information and session details, if available.
+- Relevant changes to account permissions or security settings.
+
+Evidence should be stored securely with restricted access and documented collection times to support investigation.
+
+### Account Protection Measures
+
+The affected account should be treated as potentially compromised until further investigation establishes otherwise.
+
+Recommended protective measures include:
+
+- Resetting the account password using a secure process.
+- Revoking suspicious or unrecognized sessions.
+- Verifying registered MFA methods and recovery information.
+- Reviewing recent account changes and access permissions.
+- Restoring access only after appropriate security checks.
+
+### Communication and Escalation
+
+The designated incident responder should notify the appropriate IT or security personnel and coordinate with the affected employee.
+
+The incident should be escalated if evidence reveals:
+
+- Unauthorized access to sensitive information.
+- Compromise of privileged accounts.
+- Additional affected users or systems.
+- Evidence of data exfiltration.
+- Significant operational disruption.
+
+### Containment Verification
+
+After authorized containment actions are completed, the security team should verify that:
+
+1. Previously active suspicious sessions are no longer valid.
+2. Unauthorized login attempts are blocked or appropriately monitored.
+3. Account credentials and MFA methods have been secured.
+4. No additional suspicious account activity is detected during the monitoring period.
+5. Evidence remains available for further investigation.
+
+### Containment Assessment Conclusion
+
+The proposed containment plan prioritizes account protection, evidence preservation, and continued monitoring.
+
+No containment actions have been executed as part of this simulated project.
+
+**Containment Status:** Pending Implementation
+
+**Incident Status:** Open - Investigation Ongoing
