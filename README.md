@@ -103,3 +103,30 @@ Documented a preliminary High severity assessment, containment recommendations, 
 I am working toward an entry-level cybersecurity role, particularly in security operations, monitoring, threat analysis, or incident response.
 
 I am committed to continuing my technical education and building practical experience through documented cybersecurity projects.
+
+## Project 5: SIEM Threat Detection and Security Monitoring
+
+**Focus:** SIEM | Splunk Cloud | Authentication Log Analysis | Threat Detection
+
+Analyzed simulated authentication logs using Splunk Cloud to identify failed login attempts, investigate source IP addresses, and visualize suspicious authentication activity.
+
+### Investigation Findings
+- Total authentication events: 14
+- Failed login attempts: 9
+- Successful login attempts: 5
+- Highest failed-login source IP: `203.0.113.50` (5 failed attempts)
+- Additional failed attempts: `198.51.100.25` (3) and `192.168.1.20` (1)
+
+The repeated failures from `203.0.113.50` warrant further investigation for possible password guessing. The simulated data alone does not confirm an attack.
+
+### Skills Demonstrated
+- Splunk Search Processing Language (SPL)
+- Security event monitoring
+- Authentication log analysis
+- Suspicious IP identification
+- SIEM dashboard creation
+- Security investigation documentation
+
+[View Project 5](05-SIEM-Threat-Detection/README.md)
+
+[View Splunk Dashboard PDF](05-SIEM-Threat-Detection/authentication_threat_detection_dashboard-2026-11-23.pdf)
